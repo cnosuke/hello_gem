@@ -1,0 +1,9 @@
+require 'spec_helper'
+
+require 'hello'
+
+describe Hello do
+  it "#say should be" do
+    Hello.say('foo').should_be 'Hello foo gem'
+  end
+end
